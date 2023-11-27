@@ -1,0 +1,35 @@
+@import '/admin1/Components/color/color.min.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--e3a42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+
+    .logincontainer {
+        width: 600px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 30px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    #error-message {
+        color: var(--red);
+        padding-bottom: 15px;
+    }
+}

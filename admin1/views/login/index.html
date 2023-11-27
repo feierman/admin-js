@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>峰企网站后台管理系统</title>
+    <link rel="stylesheet" href="/admin/lib/css/bootstrap.css">
+    <script src="/admin/lib/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="login.min.css">
+</head>
+
+<body>
+    <div class="logincontainer">
+        <form id="loginform">
+            <h2>峰企网站后台管理系统</h2>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">用户名</label>
+                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="请输入用户名">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">密码</label>
+                <input type="password" class="form-control" id="password" placeholder="请输入密码">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="xieyi">
+                <label class="form-check-label" for="exampleCheck1">同意登录</label>
+            </div>
+            <div id="error-message" class="form-text" style="display: none;"></div>
+            <button type="submit" class="btn btn-primary">登录</button>
+        </form>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
